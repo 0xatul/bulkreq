@@ -2,7 +2,7 @@
 
 A fast tool to make async requests to a list of urls passed from stdin and returns 
 ```
-status_code url mime_type protocol server --> redirect[if any]
+status_code url mime_type protocol server md5sum_of_response --> redirect[if any]
 ```
 
 ### How to install?
