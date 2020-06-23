@@ -40,3 +40,5 @@ echo 'target.com' | gau | bulkreq | egrep '200|405'
 ## TO-DO: 
 - add arguement parsing 
 - add support to read a file containing urls and do the thing 
+
+Thanks to [junn](https://github.com/junnlikestea/)
