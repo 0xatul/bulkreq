@@ -25,6 +25,21 @@ sudo mv target/release/bulkreq /usr/local/bin
 ```
 
 ### usage 
+-flags
+```
+❯ ./bulkreq --help
+bulkreq v0.1.0
+Make lots of requests quickly
+
+USAGE:
+    bulkreq -f <list_of_urls> or bulkreq < /path/to/urls.txt
+
+FLAGS:
+    -f, --file       read urls from a file
+    -h, --help       Prints help information
+    -V, --version    Prints version information
+    -v, --verbose    print some extra information
+```
 - On its own
 ```
 bulkreq < /path/to/urls.txt
