@@ -7,12 +7,11 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-#clap = "2.33.1"
+clap = "2.33.1"
 tokio = { version ="0.2", features =  ["full"] }
 futures-util = "0.3.5"
 futures = "0.3.5"
 futures-macro = "0.3.5"
 reqwest = "0.10.6"
-#surf = "2.0.0-alpha.3"
 bytes = "0.5.4"
 md-5 = "0.8.0"
